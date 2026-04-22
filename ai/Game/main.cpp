@@ -50,7 +50,6 @@ int main(int argc, char **argv)
         }
     }
 
-    // Ensure that the student functions match expectations
     Game game = Game(path_to_map, visual); // Create a new game object
     Brain brain = Brain();                 // Create a new brain object
 
